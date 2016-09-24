@@ -30,7 +30,7 @@ open class TRexAboutWindowController : NSWindowController {
         self.appCopyright = NSAttributedString()
         self.appCredits = NSAttributedString()
         self.appEULA = NSAttributedString()
-        self.appURL = URL()
+        self.appURL = URL(string: "http://example.com")!
         self.textShown = NSAttributedString()
         
         super.init(window: window)
@@ -40,7 +40,7 @@ open class TRexAboutWindowController : NSWindowController {
         self.appCopyright = NSAttributedString()
         self.appCredits = NSAttributedString()
         self.appEULA = NSAttributedString()
-        self.appURL = URL()
+        self.appURL = URL(string: "http://example.com")!
         self.textShown = NSAttributedString()
         
         super.init(coder: coder)
